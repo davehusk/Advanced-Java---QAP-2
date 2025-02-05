@@ -1,4 +1,4 @@
-public class TesMyLine {
+public class TestMyLine {
     public static void main(String[] args) {
         // Define the points (x1, y1) and (x2, y2)
         int x1 = 1, y1 = 2; // Begin point
