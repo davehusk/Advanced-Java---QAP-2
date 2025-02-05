@@ -16,7 +16,7 @@ dave.husk@keyin.com
 ---
 
 ## **Project URL**
-[Visit the Project Repository](https://github.com/davehusk/Advanced-Java---QAP-2)
+[Visit the Project Repository](https://github.com/davehusk/Advanced-Java-QAP-2)
 
 ---
 
