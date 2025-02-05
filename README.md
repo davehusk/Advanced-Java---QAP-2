@@ -24,3 +24,84 @@ dave.husk@keyin.com
 - Problem 1: MyLine and MyPoint
 - Problem 2: MyRectangle
 - Problem 3: Credit Card Management System
+
+Problem 2:
++-----------------------------------------------------+
+|    MyRectangle                                      |
++-----------------------------------------------------+
+| -topLeft: MyPoint                                   |
+| -bottomRight: MyPoint                               |
++-----------------------------------------------------+
+| +MyRectangle(topLeft: MyPoint, bottomRight: MyPoint)|
+| +MyRectangle(x1: int, y1: int, x2: int, y2: int)    |
+| +getTopLeft(): MyPoint                              |
+| +setTopLeft(topLeft: MyPoint): void                 |
+| +getBottomRight(): MyPoint                          |
+| +setBottomRight(bottomRight: MyPoint): void         |
+| +getWidth(): int                                    |
+| +getHeight(): int                                   |
+| +getArea(): int                                     |
+| +getPerimeter(): int                                |
+| +toString(): String                                 |
++-----------------------------------------------------+
+
+Problem 3:
++-----------------------------------------------------+
+|     Money                                           |
++-----------------------------------------------------+
+| - dollars: long                                     |
+| - cents: long                                       |
++-----------------------------------------------------+
+| + Money(amount: double)                             |
+| + Money(other: Money)                               |
+| + add(other: Money): Money                          |
+| + subtract(other: Money): Money                     |
+| + compareTo(other: Money): int                      |
+| + equals(obj: Object): boolean                      |
+| + toString(): String                                |
++-----------------------------------------------------+
+          ▲
+          │ (Used in)
+          │
++-----------------------------------------------------+
+|     Address                                         |
++-----------------------------------------------------+
+| - street: String                                    |
+| - city: String                                      |
+| - state: String                                     |
+| - zip: String                                       |
++-----------------------------------------------------+
+| + Address(street: String, city: String, state: String, zip: String) |
+| + toString(): String                                |
++-----------------------------------------------------+
+          ▲
+          │ (Used in)
+          │
++-----------------------------------------------------+
+|     Person                                          |
++-----------------------------------------------------+
+| - firstName: String                                 |
+| - lastName: String                                  |
+| - home: Address                                     |
++-----------------------------------------------------+
+| + Person(firstName: String, lastName: String, home: Address) |
+| + toString(): String                                |
++-----------------------------------------------------+
+          ▲
+          │ (Used in)
+          │
++-----------------------------------------------------+
+|   CreditCard                                        |
++-----------------------------------------------------+
+| - owner: Person                                     |
+| - balance: Money                                    |
+| - creditLimit: Money                                |
++-----------------------------------------------------+
+| + CreditCard(owner: Person, creditLimit: Money)     |
+| + getBalance(): Money                               |
+| + getCreditLimit(): Money                           |
+| + getAvailableCredit(): Money                       |
+| + getPersonals(): String                            |
+| + charge(amount: Money): void                       |
+| + payment(amount: Money): void                      |
++-----------------------------------------------------+
