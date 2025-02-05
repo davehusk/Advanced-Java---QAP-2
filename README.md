@@ -7,12 +7,11 @@ This is my Advanced Java QAP 2 project. The repository includes solutions for pr
 David Husk
 dave.husk@keyin.com
 
-How long did it take: About 2 hours to complete
-Resources: Used your lectures
-Ask friends: No
-Ask instructor: No
-Rate: Questions 1 and 2 were straight forward
-      Question 3 was more difficult from extra steps
+1. How long did it take: About 2 hours to complete
+2. Resources: Used your lectures
+3. Ask friends: No
+4. Ask instructor: No
+5. Rate: Questions 1 and 2 were straight forward. Question 3 was more difficult from extra steps
 
 ---
 
