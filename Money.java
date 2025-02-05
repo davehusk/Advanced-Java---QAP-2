@@ -37,4 +37,25 @@ public class Money {
         long cents = totalCents % 100;
         return new Money(dollars + (cents / 100.0));
     }
+
+    // Check if this Money object is equal to another
+    @Override
+    public boolean equals(Object obj) {
+        if (this == obj) return true; // Same object
+        if (obj == null || getClass() != obj.getClass()) return false; // Not same type
+        Money money = (Money) obj;
+        return dollars == money.dollars && cents == money.cents; // Compare dollars and cents
+    }
+
+    // Compare this Money object to another
+    public int compareTo(Money other) {
+        return Long.compare(this.toCents(), other.toCents());
+    }
+
+    // Turn the Money object into a string
+    @Override
+    public String toString() {
+        return "$" + dollars + "." + String.format("%02d", cents); // Format as dollars.cents
+    }
+
 }
