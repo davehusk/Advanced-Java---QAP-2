@@ -1,3 +1,4 @@
+// Defines a person by name and address
 public class Money {
     private long dollars; // Whole dollar amount
     private long cents;   // Cents (0-99)
