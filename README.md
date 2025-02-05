@@ -57,19 +57,12 @@ This project demonstrates object-oriented programming concepts including aggrega
 | +toString(): String                                 |
 +-----------------------------------------------------+
 ```
-
-#### **Files**
-- `MyRectangle.java` - Implements the rectangle class.
-- `TestMyRectangle.java` - Tests rectangle methods.
-- `UML-MyRectangle.txt` - UML reference file.
-
 #### **Status**
 ✅ Problem 2 Completed.
 
 ---
 
 ### **Problem 3: Credit Card Management System**
-The **CreditCard** system simulates basic credit card functionalities including balance tracking, credit limits, and transactions.
 
 #### **UML Diagram**
 ```
@@ -133,14 +126,5 @@ The **CreditCard** system simulates basic credit card functionalities including 
 | + payment(amount: Money): void                      |
 +-----------------------------------------------------+
 ```
-
-#### **Files**
-- `Money.java` - Handles monetary values.
-- `Address.java` - Stores address details.
-- `Person.java` - Represents the credit card owner.
-- `CreditCard.java` - Implements credit card transactions.
-- `CreditCardDemo.java` - Demonstrates the credit card system.
-- `TestCreditCards.java` - Tests credit card functionalities.
-
 #### **Status**
 ✅ All tasks completed (semi-final commit).
